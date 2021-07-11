@@ -51,22 +51,13 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Donation
+                  About Us 
                 </Link>
               </li>
-              <li className='nav-item'>
-                <Link
-                  to='/products'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
-                  Work Here 
-                </Link>
-                </li>
               <li className='nav-btn'>
                 {button ? (
                   <Link to='/sign-up' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>Log Out </Button>
+                    <Button buttonStyle='btn--outline'>Log In</Button>
                   </Link>
                 ) : (
                   <Link to='/sign-up' className='btn-link'>
@@ -75,7 +66,7 @@ function Navbar() {
                       buttonSize='btn--mobile'
                       onClick={closeMobileMenu}
                     >
-                      Log Out 
+                      Log In 
                     </Button>
                   </Link>
                 )}
