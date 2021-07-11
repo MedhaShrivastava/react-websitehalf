@@ -1,3 +1,3 @@
-# react-hxjmhn
+# react-websitehalf
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-hxjmhn)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-websitehalf) 
