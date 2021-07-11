@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  background: url(https://user-images.githubusercontent.com/87075276/125195128-f4224300-e271-11eb-99cc-defbdcb5aa8a.jpeg) center center/cover no-repeat; 
   height: 100vh;
   width: 100%;
   display: flex;
