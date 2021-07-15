@@ -85,18 +85,18 @@ btn {
   text-align: center ;
 }
 .about h1 {
-  font-size: 80px;
+  font-size: 40px;
   color: #252525;
   font-weight: 700;
   line-height: 40px;
   margin-bottom: 15px;
-  text-align: center ;
+  text-align: center  ;
 }
 .about p {
   font-size: 24px;
   color: #8b8b8b;
   font-weight: 300;
-  text-align:center ;
+  text-align:left ;
 }
 
 .about__btn {
@@ -128,5 +128,5 @@ btn {
   }
 
   .about h1 {
-    font-size: 25px;
+    font-size: 40px;
   }

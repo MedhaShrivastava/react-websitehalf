@@ -6,8 +6,8 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-6 p-25">
-            <h3>About Us</h3>
-            <h1>WELCOME TO MAESTRO PIZZINI</h1>
+            <h3>Welcome</h3>
+              <h1>About</h1>
             <p>
               Investigationes demonstraverunt lectores legere me lius quod ii
               legunt saepius. Claritas est etiam processus dynaus, quise
