@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -47,29 +46,39 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/about'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
                  About Us 
                 </Link>
               </li>
-              <li className='nav-btn'>
-                {button ? (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>Log In</Button>
-                  </Link>
-                ) : (
-                  <Link to='/sign-up' className='btn-link'>
-                    <Button
-                      buttonStyle='btn--outline'
-                      buttonSize='btn--mobile'
-                      onClick={closeMobileMenu}
-                    >
-                      Log In 
-                    </Button>
-                  </Link>
-                )}
+              <li className='nav-item'>
+                <Link
+                  to='/help'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                 Chat for help 
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/login'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                 Login 
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/logout'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                 Logout 
+                </Link>
               </li>
             </ul>
           </div>
