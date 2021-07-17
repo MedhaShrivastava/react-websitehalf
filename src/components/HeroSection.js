@@ -10,13 +10,7 @@ function HeroSection() {
             <h1>Lets Help </h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Home 
-        </Button>
+        
         <Button
           className='btns'
           buttonStyle='btn--outline'
@@ -29,17 +23,10 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Work Here 
+          Need Work 
         </Button>
 
-         <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          Log Out  <i className='far fa-play-circle' />
-        </Button>
+        
 
       </div>
     </div>
