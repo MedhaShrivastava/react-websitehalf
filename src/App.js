@@ -1,13 +1,8 @@
 
 import React from 'react';
 import './App.css';
-import logo from './logo.svg';
 import AppID from 'ibmcloud-appid-js';
-import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import About  from './components/About';
-import Products from './components/pages/Products';
+
 
 function App() {
   const appID = React.useMemo(() => {
@@ -20,8 +15,8 @@ function App() {
   (async () => {
     try {
       await appID.init({
-        clientId: '<SPA_CLIENT_ID>',
-        discoveryEndpoint: '<WELL_KNOWN_ENDPOINT>'
+        clientId:'< >',
+        discoveryEndpoint: '< >'
       });
     } catch (e) {
       setErrorState(true);
@@ -51,7 +46,7 @@ function App() {
 
 <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="" className="App-logo" alt="logo" />
         {welcomeDisplayState && <div> Welcome {userName}! You are now authenticated.</div>}
         {loginButtonDisplayState &&
         <button
@@ -64,19 +59,8 @@ function App() {
       </header>
     </div>
  
+  ) ;
       }
 
-    <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/products' component={Products} />
-        </Switch>
-      </Router>
-    </>
-  );
-}
 
 export default App;
