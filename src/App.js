@@ -16,7 +16,7 @@ function App() {
     try {
       await appID.init({
         clientId:'< >',
-        discoveryEndpoint: '< >'
+        discoveryEndpoint: '<https://eu-gb.appid.cloud.ibm.com/oauth/v4/5c0dc695-4ee3-45e4-9139-14874b29b5d5/.well-known/openid-configuration>'
       });
     } catch (e) {
       setErrorState(true);
