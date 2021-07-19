@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './App.css';
+import AppID from 'ibmcloud-appid-js';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
